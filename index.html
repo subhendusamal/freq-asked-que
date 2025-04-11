@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>freq-asked-que</title>
 
-    <link rel="stylesheet" href="footer.css">
 
     <link rel="stylesheet" href="profile.css">
     <link rel="stylesheet" href="headre.css"> 
-   
+    <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="style.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Potta+One&family=Rubik+Iso&family=Yellowtail&family=Zen+Dots&family=Zeyada&family=Zilla+Slab+Highlight:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,15 +37,18 @@
             <li><a href="#">Tech news</a></li>
              </ul> 
         </nav></div>
-        <button class="user"><a href="#"><img src="user-logo.svg" alt="user-icon"  class="popup" onclick="toggleDropdown()" ></a></button>
+
+
+        <button class="user"><a href="#"><img src="user-logo.svg" alt="user-icon" onclick="toggleDropdown()" ></a></button>
+
        
     </header>
-
-
-    <div class="dropdown">
+    
+    
+    <div class="dropdown-profile">
        
        
-        <div class="dropdown-content" id="dropdownContent">
+        <div class="dropdown-content-profile" id="dropdown-content-profile">
             <div class="triangle"></div>
             <div class="order-list" >
                <a href=""> <span class="pro-set">Profile and settings</span></a>
@@ -59,9 +62,6 @@
         </div>
     </div>
     </div>
-    
-
-
 
 
 
@@ -164,7 +164,7 @@
 
     </div>
         <form action="" id="form-cont-btn"><a href=""> <button class="cont-btn">Contact Us</button></a></form>
-        <div class="arrow-back"><img src="freq-asked-que-arrow_back.png" alt=""></div>
+        <div class="arrow-back"> <a href=""><img src="freq-asked-que-arrow_back.png" alt=""></a></div>
 
 
 
@@ -208,16 +208,8 @@
 
 
 
-        <!-- <script>
-            function toggleDropdown() {
-                let dropdown = document.getElementById("dropdownContent");
-                if (dropdown.style.display === "block") {
-                    dropdown.style.display = "none";
-                } else {
-                    dropdown.style.display = "block";
-                }
-            }
-        </s> -->
-        <script src="profile.js"></script>
+       
+       <script src="profile.js"></script>
+
 </body>
 </html>

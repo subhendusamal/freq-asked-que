@@ -10,7 +10,7 @@ body{
 .main-cont{
     position: relative;
     height: 2320px;
-    top: -97px;
+    top: 0px;
 }
 
 
@@ -39,10 +39,6 @@ top: 240px;
 left: 60px;
 border-radius: 5px;
 }
-
-
-
-
 
 
 .freq-ques{
@@ -223,7 +219,7 @@ top: 47px;
 .hr-zen{
     position: absolute;
     top: 981px;
-    left: 40px;
+    left: 0px;
 }
 .box-6{
     position: absolute;
@@ -278,7 +274,7 @@ top: 47px;
 .hr-usr{
     position: absolute;
     top: 1400px;
-    left: 39px;
+    left: px;
 }
 
 
@@ -357,8 +353,8 @@ line-height: normal;
 }
 .cont-btn{
     position: absolute;
-    top: 2293px;
-    left: 1172px;
+     top: 2200px;
+    left: 1168px; 
     display: flex;
     width: 239px;
     height: 76px;
@@ -374,7 +370,7 @@ line-height: normal;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    transition: background-color 0.5s ease, transform 0.3s ease;
 
 }
 .cont-btn:hover{
@@ -393,3 +389,11 @@ line-height: normal;
     height: 44px;
     width: 44px;
 }
+.header{
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    z-index: 2000;
+}
+
+
